@@ -28,10 +28,10 @@
     <div class="hero-content">
       <img src="images/profile.jpg.jpeg" alt="Shalline Lugusa" class="profile-photo">
       <h1>Shalline Lugusa</h1>
-      <p class="tagline">Computer Security & Forensics Graduate</p>
+      <p class="tagline">Computer Security &amp; Forensics Graduate</p>
       <p class="statement">
-        Detail-oriented cybersecurity graduate with hands-on experience in 
-        digital forensics, network administration, and ICT support. Passionate 
+        Detail-oriented cybersecurity graduate with hands-on experience in
+        digital forensics, network administration, and ICT support. Passionate
         about incident response, secure systems, and continuous learning.
       </p>
       <div class="hero-buttons">
@@ -68,7 +68,7 @@
         </ul>
       </div>
       <div class="resume-item">
-        <h4>Freelance Virtual Assistant & Transcriptionist</h4>
+        <h4>Freelance Virtual Assistant &amp; Transcriptionist</h4>
         <p class="meta">2023 – Present</p>
         <ul>
           <li>Performed data entry, document management, and administrative support</li>
@@ -95,7 +95,7 @@
             <li>Digital Forensics (Autopsy, FTK)</li>
             <li>Network Security (Wireshark, Nmap, Kali Linux)</li>
             <li>Server Administration (SMTP, FTP)</li>
-            <li>Windows & Linux Administration</li>
+            <li>Windows &amp; Linux Administration</li>
             <li>Python, Bash</li>
             <li>Incident Response</li>
           </ul>
@@ -119,7 +119,10 @@
     <h2>Projects</h2>
 
     <div class="project-card">
-      <img src="images/kerberos.png" alt="Kerberos Project">
+      <div class="project-image text-card">
+        <span class="project-icon">🔐</span>
+        <span class="project-label">Kerberos</span>
+      </div>
       <div class="project-info">
         <h3>Kerberos Authentication Protocol (Coded Implementation)</h3>
         <p>Implemented the Kerberos authentication protocol from scratch in a team, coding the Authentication Server (AS) and Ticket Granting Server (TGS) flows. Built secure session key distribution and mutual authentication.</p>
@@ -129,7 +132,10 @@
     </div>
 
     <div class="project-card">
-      <img src="images/websec.png" alt="Web Security Project">
+      <div class="project-image text-card">
+        <span class="project-icon">🌐</span>
+        <span class="project-label">Web Security</span>
+      </div>
       <div class="project-info">
         <h3>Web Application Security</h3>
         <p>Analyzed common web application vulnerabilities including SQL injection, cross-site scripting (XSS), and broken authentication. Explored secure coding practices and mitigation techniques.</p>
@@ -139,9 +145,12 @@
     </div>
 
     <div class="project-card">
-      <img src="images/network.png" alt="Network Design Project">
+      <div class="project-image text-card">
+        <span class="project-icon">🖧</span>
+        <span class="project-label">Network Design</span>
+      </div>
       <div class="project-info">
-        <h3>Network Design & Implementation</h3>
+        <h3>Network Design &amp; Implementation</h3>
         <p>Designed and implemented a functional network topology including IP addressing, subnetting, and device configuration. Configured routers, switches, and end devices.</p>
         <p class="tags"><span>Networking</span><span>Subnetting</span><span>Configuration</span></p>
         <p><strong>Key lesson:</strong> Practical understanding of network design and troubleshooting.</p>
@@ -149,7 +158,10 @@
     </div>
 
     <div class="project-card">
-      <img src="images/steg.png" alt="Steganography Project">
+      <div class="project-image text-card">
+        <span class="project-icon">🖼️</span>
+        <span class="project-label">Steganography</span>
+      </div>
       <div class="project-info">
         <h3>Steganography Project</h3>
         <p>Designed and implemented a steganography solution for secure concealment of information within digital media.</p>
@@ -158,6 +170,44 @@
       </div>
     </div>
 
+    <div class="project-card">
+      <div class="project-image text-card">
+        <span class="project-icon">📋</span>
+        <span class="project-label">Secure Referral</span>
+      </div>
+      <div class="project-info">
+        <h3>Secure Referral Simulator</h3>
+        <p>Developed a secure referral system simulation demonstrating secure data transmission and access control mechanisms.</p>
+        <p class="tags"><span>Access Control</span><span>Data Security</span></p>
+        <p><strong>Key lesson:</strong> Applied cybersecurity concepts to protect sensitive information.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image text-card">
+        <span class="project-icon">📡</span>
+        <span class="project-label">Location Mgmt</span>
+      </div>
+      <div class="project-info">
+        <h3>Location Management Schemes</h3>
+        <p>Studied and analyzed location management schemes used in mobile networks for tracking and updating device locations.</p>
+        <p class="tags"><span>Mobile Networks</span><span>Privacy</span></p>
+        <p><strong>Key lesson:</strong> Understood trade-offs between signaling load and network efficiency.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image text-card">
+        <span class="project-icon">⚙️</span>
+        <span class="project-label">Network Admin</span>
+      </div>
+      <div class="project-info">
+        <h3>Network Administration</h3>
+        <p>Configured and managed network services including SMTP mail, FTP, and remote access systems.</p>
+        <p class="tags"><span>SMTP</span><span>FTP</span><span>Remote Access</span></p>
+        <p><strong>Key lesson:</strong> Practical understanding of server configuration and system administration.</p>
+      </div>
+    </div>
   </section>
 
   <!-- LAB CHALLENGES -->
@@ -165,30 +215,27 @@
     <h2>Lab Challenges</h2>
 
     <div class="lab-card">
-      <h3>Lab 1: [Challenge Name]</h3>
-      <p><strong>Problem Statement:</strong> [Describe the challenge here]</p>
-      <p><strong>Approach:</strong> [Explain how you solved it]</p>
-      <p><strong>Tools Used:</strong> [e.g., Wireshark, Nmap, Burp Suite]</p>
-      <img src="images/lab1.png" alt="Lab 1 Screenshot">
-      <p><strong>Key Lessons Learned:</strong> [What you learned]</p>
+      <h3>Lab 1: TryHackMe — Pre Security Path</h3>
+      <p><strong>Problem Statement:</strong> Complete foundational cybersecurity labs covering network fundamentals, how the web works, and basic Linux commands.</p>
+      <p><strong>Approach:</strong> Worked through interactive rooms, completed hands-on tasks, and documented key concepts in each module.</p>
+      <p><strong>Tools Used:</strong> TryHackMe platform, Linux terminal, browser</p>
+      <p><strong>Key Lessons Learned:</strong> Gained practical understanding of network protocols, web architecture, and Linux command-line basics.</p>
     </div>
 
     <div class="lab-card">
-      <h3>Lab 2: [Challenge Name]</h3>
-      <p><strong>Problem Statement:</strong> [Describe the challenge here]</p>
-      <p><strong>Approach:</strong> [Explain how you solved it]</p>
-      <p><strong>Tools Used:</strong> [e.g., Wireshark, Nmap, Burp Suite]</p>
-      <img src="images/lab2.png" alt="Lab 2 Screenshot">
-      <p><strong>Key Lessons Learned:</strong> [What you learned]</p>
+      <h3>Lab 2: TryHackMe — Wireshark 101</h3>
+      <p><strong>Problem Statement:</strong> Analyze network traffic captures to identify protocols, extract information, and detect suspicious activity.</p>
+      <p><strong>Approach:</strong> Used Wireshark to filter traffic by protocol, followed TCP streams, and identified credentials transmitted in plaintext.</p>
+      <p><strong>Tools Used:</strong> Wireshark, PCAP files</p>
+      <p><strong>Key Lessons Learned:</strong> Learned how to read packet captures, filter traffic, and spot security issues like unencrypted credentials.</p>
     </div>
 
     <div class="lab-card">
-      <h3>Lab 3: [Challenge Name]</h3>
-      <p><strong>Problem Statement:</strong> [Describe the challenge here]</p>
-      <p><strong>Approach:</strong> [Explain how you solved it]</p>
-      <p><strong>Tools Used:</strong> [e.g., Wireshark, Nmap, Burp Suite]</p>
-      <img src="images/lab3.png" alt="Lab 3 Screenshot">
-      <p><strong>Key Lessons Learned:</strong> [What you learned]</p>
+      <h3>Lab 3: TryHackMe — Nmap Basics</h3>
+      <p><strong>Problem Statement:</strong> Perform network reconnaissance using Nmap to discover hosts, open ports, and running services.</p>
+      <p><strong>Approach:</strong> Ran various Nmap scans (SYN, UDP, version detection) against target machines and interpreted the results.</p>
+      <p><strong>Tools Used:</strong> Nmap, Kali Linux, TryHackMe target machines</p>
+      <p><strong>Key Lessons Learned:</strong> Understood how port scanning works, how to interpret scan results, and why reconnaissance is the first phase of penetration testing.</p>
     </div>
   </section>
 
@@ -199,8 +246,8 @@
     <ul class="contact-list">
       <li>📧 Email: <a href="mailto:shalline97@gmail.com">shalline97@gmail.com</a></li>
       <li>📞 Phone: <a href="tel:+254757154291">0757154291</a> / <a href="tel:+254740968998">0740968998</a></li>
-      <li>💼 LinkedIn: <a href="https://www.linkedin.com/in/shalline-lugusa-4481902ab/" target="_blank">linkedin.com/in/shalline-lugusa</a></li>
-      <li>💻 GitHub: <a href="https://github.com/Shalline" target="_blank">github.com/Shalline</a></li>
+      <li>💼 LinkedIn: <a href="https://www.linkedin.com/in/shalline-lugusa-4481902ab/" target="_blank" rel="noopener">linkedin.com/in/shalline-lugusa</a></li>
+      <li>💻 GitHub: <a href="https://github.com/Shalline" target="_blank" rel="noopener">github.com/Shalline</a></li>
       <li>📍 Location: Nakuru, Kenya</li>
     </ul>
   </section>
