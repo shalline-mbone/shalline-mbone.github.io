@@ -212,6 +212,28 @@ nav ul a:hover {
   background: #0d1b2a;
 }
 
+.project-image.text-card {
+  background: linear-gradient(135deg, #0d1b2a, #1b3a5c);
+  color: #4fc3f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.project-icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.project-label {
+  font-size: 1em;
+  color: #fff;
+  font-weight: bold;
+}
+
 .project-info {
   padding: 25px;
 }
